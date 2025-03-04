@@ -4,21 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Philosophy and Literature</title>
+    <style>
+        #image-gallery{
+            background-color: #EEEDEB;
+            padding: 20px;
+            border-radius: 30px;
+            border: solid black;
+        }
+        .ig{
+            border-radius: 10px;
+            padding-right: 3px;
+        }
+        hr{
+           border:0px solid black;
+        }
+        
+    </style>
+    <!--<link rel="stylesheet" href="style.css">-->
 </head>
 <body>
    <p   id="top" align="center"><img src="./../images/header (2).png" height="150" width="1200" alt="Header image"></p> 
    <hr>
    <!--The image gallery-->
-   <div >
-    <img src="https://i.pinimg.com/736x/82/27/2a/82272afc8e4b5003e2a3fbc7d4f200ab.jpg" height="400"  width="300" alt="shlok image">
-    <img src="./../images/temple.jpeg" height="400" width="570" alt="temple image">
-    <img src="https://i.pinimg.com/736x/ca/8f/4f/ca8f4f20a58ccf8d5116169f81ab4c25.jpg" height="400" width="300" alt="krishna image">
-    <img src="https://i.pinimg.com/736x/d6/35/7f/d6357f2c84c19afc7f71991c1682c340.jpg" height="400" alt="script">
+   <div id="image-gallery">
+    <img class="ig"  src="https://i.pinimg.com/736x/82/27/2a/82272afc8e4b5003e2a3fbc7d4f200ab.jpg" height="350"  width="250" alt="shlok image">
+    <img  class="ig" src="./../images/temple.jpeg" height="350" width="520" alt="temple image">
+    <img class="ig" src="https://i.pinimg.com/736x/ca/8f/4f/ca8f4f20a58ccf8d5116169f81ab4c25.jpg" height="350" width="260" alt="krishna image">
+    <img  class="ig" src="https://i.pinimg.com/736x/d6/35/7f/d6357f2c84c19afc7f71991c1682c340.jpg" height="350"  width="260" alt="script">
    </div>
    <hr>
    <!--Access bar-->
-   <div>
-    <h1>Categories:(Click each category to access)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=#vedas>Vedas</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href=#upanishad>Upanishads</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href=#epics>Epics</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=#philosophers>Philosophers</a></h1>
+   <div class="cat-nav">
+    <h1>Categories:(Click each category to access)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=#vedas>Vedas</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href=#upanishad>Upanishads</a>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href=#epics>Epics</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=#philosophers>Philosophers</a></h1>
    </div>
    <hr>
 <!--Vedas-->
