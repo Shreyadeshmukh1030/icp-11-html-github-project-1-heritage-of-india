@@ -104,7 +104,7 @@ hr{
 }
 .veda-description-box li {
     padding: 8px;
-    background: #F8FAFC;
+    background: #CBDCEB;
     color: black;
     margin-bottom: 8px;
     border-radius: 5px;
@@ -113,4 +113,46 @@ hr{
 .veda-description-box li:hover {
     transform: scale(1.05);
     background: #D9EAFD;
+}
+.upanishad-container {
+    display: flex;
+    align-items: center;
+    max-width:90%;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.upanishad-image {
+    flex: 1;
+    text-align: center;
+}
+.upanishad-image img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.upanishad-image img:hover {
+    transform: scale(1.09);
+    transition: 0.6s;
+}
+.upanishad-description {
+    flex: 1;
+    background: #002F6C;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.upanishad-description:hover{
+    transform: scale(1.09);
+    transition: 0.6s;
+    border:5px solid #CBDCEB ;
+}
+.upanishad-description h2 {
+    text-align: center;
+}
+.upanishad-description ul {
+    list-style-type: disc;
+    padding-left: 20px;
 }
