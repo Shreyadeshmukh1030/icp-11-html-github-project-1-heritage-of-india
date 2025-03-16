@@ -6,31 +6,74 @@
     <title>Philosophy and Literature</title>
     <style>
         #image-gallery{
-            background-color: #EEEDEB;
+            background-color: #DCF2F1;
             padding: 20px;
             border-radius: 30px;
-            border: solid black;
+            border: 4px solid #071952;
+            margin: 35px;
+            box-shadow: 5px 5px 40px 2px rgb(177, 174, 174);
         }
         .ig{
-            border-radius: 10px;
-            padding-right: 3px;
+            border-radius: 20px;
+        margin: 3px;
+            box-shadow: 5px 5px 40px 2px rgb(224, 218, 218);
+        }
+        .ig:hover{
+            border-radius: 20px;
+            padding: 3px;
+            box-shadow: 5px 5px 40px 2px rgb(123, 120, 120);
+            transition: 0.9s;
+            border:solid #071952;
+            margin: 5px;
         }
         hr{
-           border:0px solid black;
+           border:2px solid #EADBC8;
+        }
+        
+        .navbar {
+            display: flex;
+            align-items: center;
+            background: #071952;
+            padding: 10px 20px;
+            border-radius: 15px;
+            height: 30px;
+            width: 92%;
+            margin-left: 35px;
+        }
+        .menu {
+            display: flex;
+            gap: 15px;
+        }
+        .menu a {
+            color: #ccc;
+            font-size: 25px;
+            margin: 7px;
+        }
+        .menu a:hover {
+            color: white;
+            
         }
         
     </style>
     <!--<link rel="stylesheet" href="style.css">-->
 </head>
 <body>
-   <p   id="top" align="center"><img src="./../images/header (2).png" height="150" width="1200" alt="Header image"></p> 
-   <hr>
+   <p   id="top" align="center"><img src="./../images/header (2).png" height="140" width="1200" alt="Header image"></p> 
    <!--The image gallery-->
+   <nav class="navbar">
+    <div class="menu">
+        <a href="#home">Home</a>
+        <a href="#caves">Caves</a>
+        <a href="#forts">Forts</a>
+        <a href="#natural-parks">Natural Parks</a>
+        <a href="#art">Art & Music</a>
+    </div>
+</nav>
    <div id="image-gallery">
-    <img class="ig"  src="https://i.pinimg.com/736x/82/27/2a/82272afc8e4b5003e2a3fbc7d4f200ab.jpg" height="350"  width="250" alt="shlok image">
-    <img  class="ig" src="./../images/temple.jpeg" height="350" width="520" alt="temple image">
-    <img class="ig" src="https://i.pinimg.com/736x/ca/8f/4f/ca8f4f20a58ccf8d5116169f81ab4c25.jpg" height="350" width="260" alt="krishna image">
-    <img  class="ig" src="https://i.pinimg.com/736x/d6/35/7f/d6357f2c84c19afc7f71991c1682c340.jpg" height="350"  width="260" alt="script">
+    <img class="ig"  src="https://i.pinimg.com/736x/82/27/2a/82272afc8e4b5003e2a3fbc7d4f200ab.jpg" height="350"  width="265" alt="shlok image">
+    <img  class="ig" src="./../images/temple.jpeg" height="350" width="530" alt="temple image">
+    <img class="ig" src="https://i.pinimg.com/736x/ca/8f/4f/ca8f4f20a58ccf8d5116169f81ab4c25.jpg" height="350" width="265" alt="krishna image">
+    <img  class="ig" src="https://i.pinimg.com/736x/d6/35/7f/d6357f2c84c19afc7f71991c1682c340.jpg" height="350"  width="265" alt="script">
    </div>
    <hr>
    <!--Access bar-->
