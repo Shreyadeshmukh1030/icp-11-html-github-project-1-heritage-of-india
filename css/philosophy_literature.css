@@ -194,3 +194,15 @@ hr{
     font-size: 14px;
     color: #333;
 }
+.video-section {
+    text-align: center;
+    margin-top: 20px;
+}
+.video-section h2 {
+    font-size: 20px;
+    color: #002F6C;
+}
+.video-section iframe {
+    max-width: 100%;
+    border-radius: 10px;
+}
