@@ -62,7 +62,8 @@ hr{
     font-size: 12px;
     font-weight: bold;
     position:fixed;
-    top: 680px;
+    bottom:0;
+    margin-bottom: 2px;
     width: 92%;
     border-radius: 10px;
     height: 40px;
@@ -81,6 +82,7 @@ hr{
 .cat-nav a:hover {
     color: #FFA500;
 }
+
 .veda-img{
     border-radius:0px 35px 35px 0px;
     height: 400px;
@@ -235,4 +237,57 @@ hr{
 .video-section iframe {
     max-width: 100%;
     border-radius: 10px;
+}
+.descript {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+.descript h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #002F6C;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.descript h2 {
+    font-size: 1.8em;
+    color: #002F6C;
+    border-left: 5px solid #002F6C;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+.descript p {
+    font-size: 1.2em;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.descript ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.descript ul li {
+    background-size: 20px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+.descript iframe {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 600px;
+    height: 400px;
+}
+
+.descript hr {
+    border: 2px solid #002F6C;
+    margin: 40px 0;
 }
